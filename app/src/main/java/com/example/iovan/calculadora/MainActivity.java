@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         txt1 = findViewById(R.id.etiqueta);
         div = findViewById(R.id.div);
         multi = findViewById(R.id.por);
